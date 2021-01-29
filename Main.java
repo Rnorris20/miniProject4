@@ -15,11 +15,10 @@ class Main {
     //Team method returns 
     Static String team(String team)
       {
-        
-
-
+        String soccer = "Your favorite team is " + team;
+        return soccer;
       }
-
+  
 
   }
 }
