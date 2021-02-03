@@ -13,16 +13,22 @@ class Main {
     System.out.println("What is your opponents score");
     int opponentScore = scan.nextint();
 
+
+    System.out.println(greeting(name)); 
+    int totalScore = scoreValue(opponentScore, teamScore);
+    System.out.println("The point difference between each team is " + totalScore);
+
+
     System.out.println(greeting(name));
     int totalScore = scoreValue(opponentScore, teamScore);
     System.out.println("The point difference between each team is " + totalScore);
    }
 
     //Team method returns 
-    static String (String team)
+    static String soccer(String team)
       {
         String soccer = "Your favorite team is " + team;
-        return soccer;
+        return soccerTeam;
       }
 
 
