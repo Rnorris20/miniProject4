@@ -19,7 +19,7 @@ class Main {
     System.out.println("The point difference between each team is " + totalScore);
    }
 
-    //Team method returns 
+    //Team method returns a personalized response for the users favorite team.
      
     static String Soccer(String team)
      {
