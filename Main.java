@@ -14,12 +14,7 @@ class Main {
     int opponentScore = scan.nextint();
 
 
-    System.out.println(greeting(name)); 
-    int totalScore = scoreValue(opponentScore, teamScore);
-    System.out.println("The point difference between each team is " + totalScore);
-
-
-    System.out.println(greeting(name));
+    System.out.println(greeting(team));
     int totalScore = scoreValue(opponentScore, teamScore);
     System.out.println("The point difference between each team is " + totalScore);
    }
@@ -39,4 +34,3 @@ class Main {
         return totalScore;
       }
   }
-}
