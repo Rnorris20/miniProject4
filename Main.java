@@ -5,16 +5,16 @@ class Main {
   {
     Scanner scan = new Scanner(System.in);
     //print statements relating to soccer teams
-    System.out.println("Hello, welcome to the soccer shop!");
+    System.out.println("Hello, welcome to the soccer news station!");
     
     System.out.println("What is your favorite soccer team?");
     String team = scan.next();
-    System.out.println("What is your teams score?");
+    System.out.println("What is your teams score in the current game?");
     int teamScore = scan.nextInt();
-    System.out.println("What is your opponents score");
+    System.out.println("What is your opponents score in the current game?");
     int opponentScore = scan.nextInt();
 
-
+    System.out.println(Soccer(team));
     int totalScore = scoreValue(opponentScore, teamScore);
     System.out.println("The point difference between each team is " + totalScore);
    }
